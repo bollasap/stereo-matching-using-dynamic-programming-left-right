@@ -1,5 +1,5 @@
-# Dynamic Programming for Stereo Matching
-A Matlab implementation of Dynamic Programming Algorithm for stereo matching. It provides vertical smoothness by trying to keep the current path close to the former path using an additional discontinuity cost.
+# Dynamic Programming for Stereo Matching (Left-Right Axes)
+A Matlab implementation of Dynamic Programming for stereo matching. The DSI is constructed using left and right scanlines as axes. Provides vertical smoothness by trying to keep the current path close to the former path using an additional discontinuity cost.
 
 ## Input Image
 The Tsukuba stereo image that used as input.
@@ -8,14 +8,14 @@ The Tsukuba stereo image that used as input.
   <img src="Left.png"> 
 </p>
 
-## Output Image
+## Output Image (With Occlusions)
 The disparity map that created at the output.
 
 <p align="center">
   <img src="Disparity.png"> 
 </p>
 
-## Output Image (No Occlusion)
+## Output Image (Without Occlusions)
 The disparity map without occluded pixels.
 
 <p align="center">
