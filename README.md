@@ -1,4 +1,4 @@
-# Dynamic Programming for Stereo Matching (Left-Right Axes)
+# Stereo Matching using Dynamic Programming (Left-Right Axes)
 A Matlab implementation of Dynamic Programming for stereo matching. The DSI is constructed using left and right scanlines as axes. Provides vertical smoothness by trying to keep the current path close to the former path using an additional discontinuity cost.
 
 ## Input Image
